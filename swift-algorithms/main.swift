@@ -6,7 +6,5 @@
 //  Copyright © 2016 Andrew van Tonningen. All rights reserved.
 //
 
-import Foundation
-
-print("Hello, World!")
+QuickSortDriver()
 
