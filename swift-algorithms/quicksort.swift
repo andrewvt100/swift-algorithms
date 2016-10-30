@@ -50,10 +50,17 @@ func QuickSort(array:inout[Int]) {
 
 func QuickSortDriver() {
     var intArray = [10, 12, 13, 17, 6, 5, 15, 3, 1, 16]
-    QuickSort(array: &intArray)
+    print("Pre-sorted values:")
     for index in intArray {
-        print(index)
+        print(index, terminator: " ")
     }
+    print("")
+    QuickSort(array: &intArray)
+    print("Sorted values:")
+    for index in intArray {
+        print(index, terminator: " ")
+    }
+    print("")
 }
 
 
