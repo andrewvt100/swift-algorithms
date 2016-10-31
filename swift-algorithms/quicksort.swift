@@ -48,19 +48,20 @@ func QuickSort(array:inout[Int]) {
     QuickSortRecursion(array: &array, minIndex: 0, maxIndex: array.count - 1)
 }
 
-func QuickSortDriver() {
+func quickSortDriver() {
+    print("Quicksort!", terminator: "\n\n")
     var intArray = [10, 12, 13, 17, 6, 5, 15, 3, 1, 16]
     print("Pre-sorted values:")
     for index in intArray {
         print(index, terminator: " ")
     }
-    print("")
+    print("\n")
     QuickSort(array: &intArray)
     print("Sorted values:")
     for index in intArray {
         print(index, terminator: " ")
     }
-    print("")
+    print("\n")
 }
 
 

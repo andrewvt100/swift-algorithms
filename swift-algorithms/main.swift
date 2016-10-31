@@ -6,5 +6,6 @@
 //  Copyright © 2016 Andrew van Tonningen. All rights reserved.
 //
 
-QuickSortDriver()
+quickSortDriver()
+binarySearchDriver()
 
